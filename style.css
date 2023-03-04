@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-image: url('105bw.jpg');
+  background-size: contain;
+}
+.main_header{
+    text-align: center;
+}
+
+.main_title {
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.301);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  
+}
+
+.info {
+  width: 50%;
+  padding: 20px;
+  float: left;
+  text-align: center;
+}
+.info .article_title{
+    width: 100%;
+    font-size: 40px;
+    font-family: 'arial bold', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.bio_text {
+  background-color: rgba(0, 0, 0, 0.301);
+  text-align: justify;
+ }
+.listen_main{
+    font-size: 40px;
+    color: black;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.39);
+    text-decoration: dashed;
+}
+.listen_main:hover{
+    background-color: black;
+    color: green;
+}
+.discography {
+  width: 50%;
+  padding: 20px;
+  float: left;
+  text-align: center;
+}
+.discography .article_title{
+    font-size: 40px;
+    font-family: 'arial bold', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.fullset{
+  width: 50%;
+  margin-left: 20;
+}
+.album{
+  display: inline-block;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: left;
+}
+.album_cover{
+   width: 50%;
+}
+.album_review{
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.911);
+  color: white;
+  margin-top: 0px;
+}
+.album_title{
+  text-decoration: none;
+  color: black;
+}
+.rodape{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.301);
+  font-size: large;
+  margin-bottom: 20px;
+}
+.CodeByGuilherme{
+  color: black;
+  text-decoration: underline;
+}
+.CodeByGuilherme:hover{
+  font-size: 35px;
+  text-align: center;
+}
+.trivia{
+  background-color: rgba(0, 0, 0, 0.301);
+  text-align: justify;
+}
