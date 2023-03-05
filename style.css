@@ -3,88 +3,98 @@ body {
   background-image: url('105bw.jpg');
   background-size: contain;
 }
-.main_header{
-    text-align: center;
+
+.main_header {
+  text-align: center;
 }
 
 .main_title {
-  font-size: 60px;
+  font-size: 40px;
   font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.301);
   margin-top: 0px;
   margin-bottom: 10px;
-  
 }
 
 .info {
   width: 50%;
   padding: 20px;
-  float: left;
   text-align: center;
 }
-.info .article_title{
-    width: 100%;
-    font-size: 40px;
-    font-family: 'arial bold', sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.301);
+
+.info .article_title {
+  width: 100%;
+  font-size: 30px;
+  font-family: 'arial bold', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.301);
 }
 
 .bio_text {
   background-color: rgba(0, 0, 0, 0.301);
   text-align: justify;
- }
-.listen_main{
-    font-size: 40px;
-    color: black;
-    font-family: sans-serif;
-    background-color: rgba(255, 255, 255, 0.39);
-    text-decoration: dashed;
 }
-.listen_main:hover{
-    background-color: black;
-    color: green;
+
+.listen_main {
+  font-size: 30px;
+  color: black;
+  font-family: sans-serif;
+  background-color: rgba(255, 255, 255, 0.39);
+  text-decoration: dashed;
 }
+
+.listen_main:hover {
+  background-color: black;
+  color: green;
+}
+
 .discography {
   width: 50%;
   padding: 20px;
-  float: left;
   text-align: center;
 }
-.discography .article_title{
-    font-size: 40px;
-    font-family: 'arial bold', sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.301);
+
+.discography .article_title {
+  font-size: 30px;
+  font-family: 'arial bold', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.301);
 }
-.fullset{
-  width: 50%;
-  margin-left: 20;
+
+.fullset {
+  width: 40%;
+  margin-left: 20px;
 }
-.album{
+
+.album {
   display: inline-block;
-  width: 25%;
+  width: 30%;
   box-sizing: border-box;
   padding: 10px;
   text-align: left;
 }
-.album_cover{
-   width: 50%;
+
+.album_cover {
+  width: 50%;
 }
-.album_review{
+
+.album_review {
   text-align: justify;
   background-color: rgba(0, 0, 0, 0.911);
   color: white;
   margin-top: 0px;
 }
-.album_title{
+
+.album_title {
   text-decoration: none;
   color: black;
+  font-size: 20px;
 }
-.rodape{
+
+.rodape {
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -92,15 +102,107 @@ body {
   font-size: large;
   margin-bottom: 20px;
 }
-.CodeByGuilherme{
+
+.CodeByGuilherme {
   color: black;
   text-decoration: underline;
 }
-.CodeByGuilherme:hover{
+
+.CodeByGuilherme:hover {
   font-size: 35px;
   text-align: center;
 }
 .trivia{
   background-color: rgba(0, 0, 0, 0.301);
   text-align: justify;
+}
+/* Ajustes para smartphone */
+@media only screen and (max-width: 480px) {
+
+  
+  body {
+    background-size: cover;
+  }
+
+  
+  .main_title {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  
+  .info {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  
+  .info .article_title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  
+  .discography {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  
+  .discography .article_title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  
+  .fullset {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  
+  .album {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  
+  .album_cover {
+    width: 100%;
+  }
+
+  
+  .album_review {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  
+  .album_title {
+    font-size: 16px;
+  }
+
+  
+  .rodape {
+    font-size: medium;
+  }
+
+  
+  .CodeByGuilherme {
+    font-size: 20px;
+  }
+
+  
+  .trivia {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
