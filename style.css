@@ -33,8 +33,9 @@ body {
 }
 
 .bio_text {
-  background-color: rgba(0, 0, 0, 0.301);
+  background-color: rgba(0, 0, 0, 0.767);
   text-align: justify;
+  color: white;
 }
 
 .listen_main {
@@ -75,6 +76,7 @@ body {
   box-sizing: border-box;
   padding: 10px;
   text-align: left;
+  text-decoration: none;
 }
 
 .album_cover {
@@ -83,7 +85,7 @@ body {
 
 .album_review {
   text-align: justify;
-  background-color: rgba(0, 0, 0, 0.911);
+  background-color: rgba(0, 0, 0, 0.767);
   color: white;
   margin-top: 0px;
 }
